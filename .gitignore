@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+package-lock.json
+environments/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs (if any)
+dist/
+build/
+.claude/
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.override.yaml
+docker-compose.local.yaml
+
+# VSCode settings
+.vscode/
+
+# IDEs
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQL dump/init files (optional, if you don't want to track changes)
+# init.sql
+
+# Misc
+*.swp
+
+aws-lock.json
+.svelte-kit
+
+edge cases
+todo
+.svelte-kit/
+.expo/
+.vscode/
+errors/
+clone
+node_modules/
+.DS_Store
+design/source-files/

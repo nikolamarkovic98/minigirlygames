@@ -1,0 +1,20 @@
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="/">
+        <img src="/assets/img/logo.png" alt="Mini Girly Games logo">
+      </a>
+      <button class="nav-toggle" aria-label="Menu"><span></span></button>
+      <nav class="nav-links">
+        <% [
+          { href: '/',         label: 'Home' },
+          { href: '/#games',   label: 'Games' },
+          { href: '/contact',  label: 'Contact' },
+          { href: '/terms',    label: 'Terms' },
+          { href: '/privacy',  label: 'Privacy' },
+        ].forEach(function (link) { %>
+        <a href="<%= link.href %>"<%- link.href === currentPath ? ' class="active"' : '' %>><%= link.label %></a>
+        <% }) %>
+      </nav>
+    </div>
+  </header>
